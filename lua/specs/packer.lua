@@ -60,4 +60,6 @@ return require('packer').startup(function(use)
 
     use('barrett-ruth/live-server.nvim')
 
+    use("tpope/vim-surround")
+
 end)
